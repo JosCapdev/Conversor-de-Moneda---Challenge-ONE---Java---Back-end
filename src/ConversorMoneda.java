@@ -6,8 +6,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConversorMoneda {
-    public Moneda buscaMoneda(String nombre){
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/7a3e298b02a61a891173809d/latest/"+nombre);
+    public Moneda conversor(String nombre1,String nombre2){
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/7a3e298b02a61a891173809d/pair/"+nombre1+"/"+nombre2);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -22,4 +22,5 @@ public class ConversorMoneda {
             throw new RuntimeException("Error en la busqueda del tipo de Moneda.");
         }
     }
+
 }
