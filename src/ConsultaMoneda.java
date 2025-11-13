@@ -12,6 +12,7 @@ public class ConversorMoneda {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)
+                .GET()
                 .build();
 
         try {
