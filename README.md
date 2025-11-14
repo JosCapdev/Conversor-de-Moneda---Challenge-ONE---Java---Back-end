@@ -13,10 +13,13 @@ El desafío busca poner en práctica conocimientos de:
 ---
 
 ## 🎯 Funcionalidades
-- Menú interactivo en consola con 6 opciones de conversión.
+- Menú interactivo en consola con 10 opciones de conversión.
 - Conversión entre distintas monedas (USD, ARS, BRL, etc.).
 - Entrada de valores por parte del usuario.
 - Resultados calculados en tiempo real a partir de la API.
+- Historial de conversiones realizadas durante la sesión.
+- Registro de fecha y hora exacta en que se hizo cada conversión.
+- Mensaje claro cuando el historial está vacío.
 - Opción para salir del programa.
 - Ejecución dentro de un bucle para múltiples consultas.
 
@@ -27,6 +30,7 @@ El desafío busca poner en práctica conocimientos de:
 - **IntelliJ IDEA**
 - **API Exchange Rate** (requiere API Key gratuita)
 - **Gson** para el manejo de datos JSON
+- **java.time** para registrar marcas de tiempo en las conversiones
 
 ---
 
@@ -37,14 +41,15 @@ El desafío busca poner en práctica conocimientos de:
 4. Implementar el menú de opciones en consola.
 5. Procesar entradas y mostrar resultados de conversión.
 6. Aplicar buenas prácticas de desarrollo ágil (uso de Trello para gestión de tareas).
+7. Agregar extras opcionales como historial y marcas de tiempo.
 
 ---
 
 ## 🌟 Extras opcionales
-- Agregar más monedas al conversor.
-- Mejorar la interfaz de usuario en consola.
-- Implementar manejo de errores y validaciones.
-- Personalizar el proyecto con tu propio estilo.
+- ✅ Historial de conversiones con validación de lista vacía.
+- ✅ Soporte para más monedas (CLP, BOB, etc.).
+- ✅ Registros con marca de tiempo usando `java.time`.
+- ✅ Personalización de mensajes en consola.
 
 ---
 
