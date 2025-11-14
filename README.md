@@ -46,10 +46,16 @@ El desafío busca poner en práctica conocimientos de:
 ---
 
 ## 🌟 Extras opcionales
+- Implementar manejo de errores y validaciones con `try-catch`:
+
 - ✅ Historial de conversiones con validación de lista vacía.
 - ✅ Soporte para más monedas (CLP, BOB, etc.).
 - ✅ Registros con marca de tiempo usando `java.time`.
+- ✅ Registros con marca de tiempo usando `java.time`.
 - ✅ Personalización de mensajes en consola.
+- ✅ Implementar manejo de errores y validaciones con `try-catch`:
+- ✅ Validación de entradas inválidas del usuario (ej. letras en lugar de números).
+- ✅ Manejo de errores de conexión o parseo al consumir la API.
 
 ---
 
